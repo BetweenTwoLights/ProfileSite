@@ -1,1 +1,46 @@
-body    {font-family: 'Roboto', sans-serif;}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(52, 0, 63);
+    color: cornsilk;
+}
+
+.nav {
+    background-color: rgb(34, 0, 41);
+}
+
+.nav-link {
+    color: cornsilk;
+}
+
+.nav-link:visited {
+    color: darkgoldenrod;
+}
+
+.nav-link:hover .nav-link:focus {
+    color: rgb(247, 217, 97);
+}
+
+.btn {
+    background-color: purple;
+    color: cornsilk;
+    border: darkorchid;
+}
+
+.btn:visited {
+    background-color: darkmagenta;
+    color: darkgoldenrod;
+
+}
+
+.btn:hover .btn:focus {
+    background-color: rgb(73, 0, 73);
+    color:  rgb(247, 217, 97);
+}
+
+.jumbotron {
+    background-color: rgb(59, 0, 59);
+}
+
+.text-primary {
+    color: purple;
+}
